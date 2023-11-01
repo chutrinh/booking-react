@@ -1,0 +1,69 @@
+/* css cho khối table search */
+#table-search {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  gap: 10px;
+  border: 1px solid green;
+  padding: 10px;
+  height: 220px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+/* css khối hình ảnh */
+#table-search img {
+  width: 25%;
+  border-radius: 10px;
+}
+/* css khối card chi tiết */
+.card-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card-detail p {
+  font-size: 13px;
+}
+.card-detail p:nth-child(3) {
+  color: white;
+  background-color: green;
+  width: 35%;
+  text-align: center;
+  border-radius: 5px;
+}
+.card-detail p:nth-child(4) {
+  font-weight: bold;
+}
+.card-detail p:nth-child(6) {
+  color: green;
+}
+.card-detail p:nth-child(7) {
+  color: green;
+}
+/* css cho khối price */
+.card-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-price .price {
+  text-align: right;
+}
+.card-price .price :first-child {
+  font-size: 150%;
+  font-weight: bold;
+}
+.card-price .price :nth-child(2) {
+  padding: 10px 0px;
+  font-size: 12px;
+  opacity: 0.6;
+}
+.card-price .price button {
+  width: 100%;
+  padding: 5px 0px;
+  background-color: blue;
+  color: white;
+  opacity: 0.8;
+  border-radius: 5px;
+  border: none;
+}
